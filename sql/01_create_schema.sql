@@ -1,6 +1,5 @@
 -- ============================================================
 -- MCU Analysis Project: Schema
--- Run this once, inside the mcu_analysis database.
 -- ============================================================
 
 -- Core film list with phase metadata (from mcu_films_seed.csv)
