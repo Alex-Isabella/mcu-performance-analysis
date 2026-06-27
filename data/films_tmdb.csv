@@ -1,0 +1,37 @@
+title,phase,tmdb_id,release_date,runtime_minutes,vote_average_tmdb,vote_count_tmdb,popularity_tmdb,budget_tmdb,revenue_tmdb,genres,director,imdb_id
+Iron Man,Phase One,1726,2008-04-30,126,7.662,28220,21.837,140000000,585174222,Action|Science Fiction|Adventure,Jon Favreau,tt0371746
+The Incredible Hulk,Phase One,1724,2008-06-12,114,6.243,12735,14.8484,150000000,264770996,Science Fiction|Action|Adventure,Louis Leterrier,tt0800080
+Iron Man 2,Phase One,10138,2010-04-28,124,6.855,22450,22.4787,200000000,623933331,Adventure|Action|Science Fiction,Jon Favreau,tt1228705
+Thor,Phase One,10195,2011-04-21,115,6.771,22394,12.556,150000000,449326618,Adventure|Fantasy|Action,Kenneth Branagh,tt0800369
+Captain America: The First Avenger,Phase One,1771,2011-07-22,124,7.008,22787,8.4026,140000000,370569774,Action|Adventure|Science Fiction,Joe Johnston,tt0458339
+The Avengers,Phase One,24428,2012-04-25,143,8.047,38465,41.6906,220000000,1518815515,Science Fiction|Action|Adventure,Joss Whedon,tt0848228
+Iron Man 3,Phase Two,68721,2013-04-18,130,6.933,23482,17.6923,200000000,1215577205,Action|Adventure|Science Fiction,Shane Black,tt1300854
+Thor: The Dark World,Phase Two,76338,2013-10-30,112,6.512,18375,10.4042,170000000,644783140,Action|Adventure|Fantasy,Alan Taylor,tt1981115
+Captain America: The Winter Soldier,Phase Two,100402,2014-03-20,136,7.656,20062,6.8951,170000000,714766572,Action|Adventure|Science Fiction,Joe Russo,tt1843866
+Guardians of the Galaxy,Phase Two,118340,2014-07-30,121,7.906,29791,7.8881,170000000,772776600,Action|Science Fiction|Adventure,James Gunn,tt2015381
+Avengers: Age of Ultron,Phase Two,99861,2015-04-22,141,7.274,24514,24.5285,235000000,1405403694,Action|Adventure|Science Fiction,Joss Whedon,tt2395427
+Ant-Man,Phase Two,102899,2015-07-14,117,7.066,20908,12.0155,130000000,519311965,Science Fiction|Adventure|Action,Peyton Reed,tt0478970
+Captain America: Civil War,Phase Three,271110,2016-04-27,147,7.449,24093,17.6395,250000000,1155046416,Adventure|Action|Science Fiction,Joe Russo,tt3498820
+Doctor Strange,Phase Three,284052,2016-10-25,115,7.422,23485,11.3057,180000000,676343174,Fantasy|Adventure|Action,Scott Derrickson,tt1211837
+Guardians of the Galaxy Vol. 2,Phase Three,283995,2017-04-25,137,7.61,22990,11.3223,200000000,863756051,Science Fiction|Adventure|Action,James Gunn,tt3896198
+Spider-Man: Homecoming,Phase Three,315635,2017-07-05,133,7.3,23239,32.2352,175000000,880978185,Action|Adventure|Science Fiction,Jon Watts,tt2250912
+Thor: Ragnarok,Phase Three,284053,2017-10-02,131,7.581,22072,15.2006,180000000,855301806,Action|Science Fiction|Comedy,Taika Waititi,tt3501632
+Black Panther,Phase Three,284054,2018-02-13,135,7.364,23543,18.7776,200000000,1349926083,Action|Adventure|Science Fiction,Ryan Coogler,tt1825683
+Avengers: Infinity War,Phase Three,299536,2018-04-25,149,8.237,32149,50.758,300000000,2052415039,Adventure|Action|Science Fiction,Anthony Russo,tt4154756
+Ant-Man and the Wasp,Phase Three,363088,2018-07-04,119,6.902,14222,8.7433,140000000,622674139,Action|Adventure|Science Fiction,Peyton Reed,tt5095030
+Captain Marvel,Phase Three,299537,2019-03-06,124,6.8,16789,9.718,152000000,1131416446,Action|Adventure|Science Fiction,Ryan Fleck,tt4154664
+Avengers: Endgame,Phase Three,299534,2019-04-24,181,8.237,27896,33.5921,356000000,2799439100,Adventure|Science Fiction|Action,Anthony Russo,tt4154796
+Spider-Man: Far From Home,Phase Three,429617,2019-06-28,129,7.4,17020,25.1297,160000000,1132723226,Action|Adventure|Science Fiction,Jon Watts,tt6320628
+Black Widow,Phase Four,497698,2021-07-07,134,7.167,11280,11.7029,200000000,379751131,Action|Adventure|Science Fiction,Cate Shortland,tt3480822
+Shang-Chi and the Legend of the Ten Rings,Phase Four,566525,2021-09-01,132,7.495,10432,12.554,150000000,432243292,Action|Adventure|Fantasy,Destin Daniel Cretton,tt9376612
+Eternals,Phase Four,524434,2021-11-03,156,6.77,9180,9.9817,200000000,402064899,Science Fiction|Action|Adventure,Chloé Zhao,tt9032400
+Spider-Man: No Way Home,Phase Four,634649,2021-12-15,148,7.9,22104,47.3729,200000000,2019206586,Action|Adventure|Science Fiction,Jon Watts,tt10872600
+Doctor Strange in the Multiverse of Madness,Phase Four,453395,2022-05-04,126,7.23,10392,15.6941,290000000,955775804,Fantasy|Action|Adventure,Sam Raimi,tt9419884
+Thor: Love and Thunder,Phase Four,616037,2022-07-06,119,6.368,8601,11.6229,250000000,760928081,Fantasy|Action|Comedy,Taika Waititi,tt10648342
+Black Panther: Wakanda Forever,Phase Four,505642,2022-11-09,162,7.006,7505,12.5018,250000000,859102154,Action|Adventure|Science Fiction,Ryan Coogler,tt9114286
+Ant-Man and the Wasp: Quantumania,Phase Five,640146,2023-02-15,125,6.226,5867,8.263,326600000,476071180,Action|Adventure|Science Fiction,Peyton Reed,tt10954600
+Guardians of the Galaxy Vol. 3,Phase Five,447365,2023-05-03,150,7.932,8398,14.322,250000000,845550000,Science Fiction|Adventure|Action,James Gunn,tt6791350
+The Marvels,Phase Five,609681,2023-11-08,105,5.941,3417,7.4415,274800000,206136825,Science Fiction|Adventure|Action,Nia DaCosta,tt10676048
+Deadpool & Wolverine,Phase Five,533535,2024-07-24,128,7.574,8803,35.2675,200000000,1338073645,Action|Comedy|Science Fiction,Shawn Levy,tt6263850
+Captain America: Brave New World,Phase Six,822119,2025-02-12,119,5.969,3129,12.6651,180000000,415101577,Action|Thriller|Science Fiction,Julius Onah,tt14513804
+Thunderbolts*,Phase Five,986056,2025-04-30,127,7.3,3592,14.4416,180000000,382436917,Action|Science Fiction|Adventure,Jake Schreier,tt20969586

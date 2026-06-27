@@ -1,0 +1,6 @@
+"phase","phase_start_date","film_count","avg_critic_score","avg_audience_score_scaled","avg_critic_audience_gap","avg_budget","avg_worldwide_gross","avg_roi_multiple","avg_runtime_minutes"
+Phase Five,2023-02-17,6,67.0,66.0,1.0,213333333,610562654,2.94,126
+Phase Four,2021-07-09,7,76.1,68.3,7.9,207142857,815881197,3.95,140
+Phase One,2008-05-02,6,80.3,72.2,8.2,168083333,634434113,3.52,124
+Phase Three,2016-05-06,11,89.2,75.7,13.5,212272727,1219227720,5.58,136
+Phase Two,2013-05-03,6,80.8,73.3,7.5,197500000,876448864,4.49,126
