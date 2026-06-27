@@ -6,8 +6,6 @@ A data analysis project investigating whether the Marvel Cinematic Universe's bo
 **[View the interactive dashboard on Tableau Public →](https://public.tableau.com/app/profile/alex8184/viz/MCUDataAnalysis/Dashboard1)**
 
 
->>>>>>> 8d6eddc56c1f2a947514b24b5f37e19e7a9b8841
-
 ![Dashboard preview](dashboard/dashboard_preview.png)
 
 ## The question
