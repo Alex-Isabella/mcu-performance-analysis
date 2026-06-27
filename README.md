@@ -2,10 +2,10 @@
 
 A data analysis project investigating whether the Marvel Cinematic Universe's box office and critical reception decline in recent years is driven by audience fatigue, quality decline, or other factors — using a full relational dataset built from scratch across all 36 theatrical MCU films (Phase One through Phase Five).
 
-
-<a href="https://public.tableau.com/app/profile/alex8184/viz/MCUDataAnalysis/Dashboard1" target="_blank" rel="noopener noreferrer"><strong>View the interactive dashboard on Tableau Public →</strong></a>
+**[View the interactive dashboard on Tableau Public →](https://public.tableau.com/app/profile/alex8184/viz/MCUDataAnalysis/Dashboard1)**
 
 ![Dashboard preview](dashboard/dashboard_preview.png)
+*(replace with a screenshot export of your final dashboard)*
 
 ## The question
 
@@ -66,6 +66,10 @@ mcu_project/
 6. **Analyzed** using SQL — including window functions (`LAG()`) to calculate time between an actor's MCU appearances, and `CORR()` for correlation analysis
 7. **Visualized** via Tableau Public, built on a set of pre-joined SQL views designed specifically for flat-file export
 
+## Data model
+
+![Dataset relationships](dashboard/dataset_relationships.png)
+
 ## Data sources
 
 - [TMDB](https://www.themoviedb.org/) — cast, crew, runtime, genres
@@ -81,4 +85,4 @@ mcu_project/
 
 ## Author
 
-Built by Alex Isabella as a portfolio project. See [`ANALYSIS.md`](ANALYSIS.md) for the full analytical write-up.
+Built by [your name] as a portfolio project. See [`ANALYSIS.md`](ANALYSIS.md) for the full analytical write-up.
