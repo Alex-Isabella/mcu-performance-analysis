@@ -1,6 +1,5 @@
 -- ============================================================
 -- MCU Analysis Project: Clean numeric versions of text-formatted columns
--- Run this after all 5 tables are loaded with data.
 -- ============================================================
 
 -- Add new numeric columns to hold cleaned values
