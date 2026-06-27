@@ -3,20 +3,13 @@
 -- ============================================================
 -- Tableau works best with flat, pre-joined tables rather than
 -- forcing it to replicate SQL joins/window functions in its own
--- engine. These views do the heavy lifting in Postgres once;
--- Tableau just reads the result.
---
--- After running this script, connect Tableau directly to Postgres
--- (Tableau has a native PostgreSQL connector) and use these views
--- as your data sources, OR export each view to CSV via DBeaver
--- (right-click view -> Export Data -> CSV) if you'd rather not
--- set up a live DB connection in Tableau.
+-- engine. These views do the heavy lifting in Postgres
 
 
 -- ----------------------------------------------------------------
 -- VIEW 1: Master film-level table (one row per film, everything joined)
 -- ----------------------------------------------------------------
--- This is your main dashboard data source -- almost every chart
+-- This is our main dashboard data source -- almost every chart
 -- (scores over time, ROI over time, budget vs gross scatter, etc.)
 -- can be built from this one view.
 
@@ -73,11 +66,11 @@ GROUP BY phase;
 
 -- ----------------------------------------------------------------
 -- VIEW 3: Actor appearance gaps + the film's reception (combines
--- the LAG() window function with score data, as discussed)
+-- the LAG() window function with score data)
 -- ----------------------------------------------------------------
 -- One row per (actor, film) for top-3-billed actors only. Useful
--- for a scatter plot: days_since_last_appearance (x) vs the film's
--- critic/audience score (y), to visually test the "long gap = worse
+-- for a scatter plot: days_since_last_appearance vs the film's
+-- critic/audience score, to visually test the "long gap = worse
 -- reception" theory.
 
 CREATE OR REPLACE VIEW v_actor_gap_vs_reception AS
