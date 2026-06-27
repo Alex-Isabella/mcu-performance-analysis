@@ -3,8 +3,7 @@
 A data analysis project investigating whether the Marvel Cinematic Universe's box office and critical reception decline in recent years is driven by audience fatigue, quality decline, or other factors — using a full relational dataset built from scratch across all 36 theatrical MCU films (Phase One through Phase Five).
 
 
-**[View the interactive dashboard on Tableau Public →](https://public.tableau.com/app/profile/alex8184/viz/MCUDataAnalysis/Dashboard1)**
-
+<a href="https://public.tableau.com/app/profile/alex8184/viz/MCUDataAnalysis/Dashboard1" target="_blank" rel="noopener noreferrer"><strong>View the interactive dashboard on Tableau Public →</strong></a>
 
 ![Dashboard preview](dashboard/dashboard_preview.png)
 
