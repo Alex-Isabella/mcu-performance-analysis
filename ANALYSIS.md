@@ -24,14 +24,15 @@ Data was loaded into a normalized PostgreSQL schema — five tables (`films`, `f
 
 ## 3. Methodology
 
-Four core analyses were run via SQL against the joined dataset:
+Five core analyses were run via SQL against the joined dataset:
 
 1. **Critic vs. audience score gap by phase** — comparing average Rotten Tomatoes score (0-100) against average IMDb rating (scaled ×10 to the same range), grouped by phase
 2. **ROI by phase** — average worldwide gross ÷ average budget per phase, with a reference threshold acknowledging that real breakeven for a theatrical release typically requires roughly 2-2.5x budget once marketing and distribution costs (not present in this dataset) are included
 3. **Actor appearance-gap analysis** — using a `LAG()` window function partitioned by actor and ordered by release date, calculating the number of days between a top-3-billed actor's consecutive MCU appearances, then comparing that gap against the receiving film's reception scores
 4. **Phase 1-3 vs. Phase 4-5 cohort comparison** — a direct two-group comparison across critic score, audience score, ROI, and runtime, to test multiple competing explanations side by side
+5. **Per-film budget vs. box office, with ROI overlaid** — a film-by-film view (rather than a phase-level average) stacking each film's budget, domestic gross, and international gross, with its individual ROI multiple plotted as a line across the same films. This is the level of detail that surfaces individual outliers the phase averages smooth over — notably *The Marvels* (0.76x) and *Spider-Man: No Way Home* (9.61x) — and is the centerpiece visual of the published dashboard.
 
-A fifth pass added Pearson correlation coefficients (via Postgres's built-in `CORR()`) between reception and ROI, and between budget and reception, to quantify relationships that earlier queries had only shown visually.
+A sixth pass added Pearson correlation coefficients (via Postgres's built-in `CORR()`) between reception and ROI, and between budget and reception, to quantify relationships that earlier queries had only shown visually.
 
 ## 4. Findings
 
