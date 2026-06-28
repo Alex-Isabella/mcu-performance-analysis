@@ -85,4 +85,4 @@ mcu_project/
 
 ## Author
 
-Built by [your name] as a portfolio project. See [`ANALYSIS.md`](ANALYSIS.md) for the full analytical write-up.
+Built by Alex Isabella as a portfolio project. See [`ANALYSIS.md`](ANALYSIS.md) for the full analytical write-up.

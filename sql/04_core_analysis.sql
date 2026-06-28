@@ -1,6 +1,5 @@
 -- ============================================================
 -- MCU Analysis Project: Core Analysis Queries
--- Run against mcu_analysis, after schema + data + cleanup scripts.
 -- ============================================================
 
 
@@ -8,10 +7,8 @@
 -- QUERY 1: Critic-vs-audience score gap by phase
 -- ----------------------------------------------------------------
 -- imdb_rating is on a 0-10 scale; rotten_tomatoes_clean is 0-100.
--- We put imdb_rating on the same 0-100 scale (x10) so the "gap" is
--- a meaningful number, not an artifact of different scales.
--- A widening gap (critics liked it more than audiences) is the
--- classic fatigue/backlash signal.
+-- I put imdb_rating on the same 0-100 scale (x10) so the "gap" is a meaningful number.
+-- A widening gap (critics liked it more than audiences) is the classic fatigue/backlash signal.
 
 SELECT
     f.phase,
@@ -31,7 +28,7 @@ ORDER BY MIN(f.release_date);
 -- ROI here = worldwide gross / budget. A common industry rule of
 -- thumb is a film needs to gross ~2-2.5x its budget to break even
 -- once marketing/distribution costs are factored in (those costs
--- aren't in our dataset, so treat this as a relative comparison
+-- aren't in this dataset, so treat this as a relative comparison
 -- across phases, not a literal profit calculation).
 
 SELECT
@@ -47,15 +44,14 @@ ORDER BY MIN(f.release_date);
 
 
 -- ----------------------------------------------------------------
--- QUERY 3: Time since an actor's last MCU appearance (lead-fatigue signal)
+-- QUERY 3: Time since top billed actor's last MCU appearance (lead-fatigue signal)
 -- ----------------------------------------------------------------
--- For each lead/top-billed actor (billing_order 0-2, i.e. top 3 credited),
--- this calculates the gap in days since that same actor's previous MCU
+-- For each lead/top-billed actor,
+-- this calculates the gap in days since that same actor's top billed previous MCU
 -- film, using LAG() partitioned by person and ordered by release date.
 -- A long gap before a film with declining reception could support a
 -- "the audience needed a reintroduction" reading; a short gap (frequent
 -- appearances) supports a "we're tired of seeing this character" reading.
--- Worth eyeballing both directions rather than assuming one.
 
 SELECT
     fc.person_name,
@@ -77,9 +73,9 @@ ORDER BY fc.person_name, f.release_date;
 -- ----------------------------------------------------------------
 -- QUERY 4: Headline comparison — Phase 1-3 vs Phase 4-5 cohorts
 -- ----------------------------------------------------------------
--- This is the single summary table for your write-up: two eras,
+-- This is the single summary table for the write-up: two eras,
 -- side by side, across rating, ROI, and runtime. Phase Six excluded
--- since it currently has 0 released films in our dataset.
+-- since it currently has 0 films in our dataset.
 
 SELECT
     CASE
