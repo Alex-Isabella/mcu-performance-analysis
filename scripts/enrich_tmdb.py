@@ -1,8 +1,7 @@
 """
 Step 2: Pull detailed film + cast/crew data from TMDB.
 
-Run this only after verify_tmdb_ids.py shows all rows as OK (or you've
-corrected the mismatches in mcu_films_seed.csv).
+Run this only after verify_tmdb_ids.py shows all rows as OK
 
 Produces two files:
     data/films_tmdb.csv      -- one row per film (runtime, popularity, vote avg, etc.)

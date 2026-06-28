@@ -1,15 +1,10 @@
 """
 Step 1: Verify TMDB IDs in our seed list.
-
-Why this exists: the seed CSV's tmdb_id column was filled in from memory and
-may contain mistakes. Trusting an unverified ID means you could silently pull
-the wrong movie's box office/ratings into your dataset. This script searches
-TMDB by title for every row, compares the result to what we have on file, and
-writes out a verification report so you can fix anything before building the
-rest of the pipeline on top of it.
+This script searches TMDB by title for every row, compares the result to what we have on file, and
+writes out a verification report so you can fix anything before building the rest of the pipeline on top of it.
 
 Usage:
-    python verify_tmdb_ids.py YOUR_TMDB_API_KEY
+    python verify_tmdb_ids.py TMDB_API_KEY
 """
 import csv
 import sys

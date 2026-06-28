@@ -2,7 +2,7 @@
 Step 3: Pull ratings data from OMDb (IMDb rating, Rotten Tomatoes, Metascore).
 
 Depends on data/films_tmdb.csv already existing (run enrich_tmdb.py first) --
-we use the imdb_id column from that file to look up each film on OMDb, since
+Use the imdb_id column from that file to look up each film on OMDb, since
 matching by IMDb ID is far more reliable than matching by title string.
 
 Produces:
