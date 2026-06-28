@@ -2,9 +2,9 @@
 
 ## 1. Motivation
 
-Since roughly 2021, there's been a persistent media narrative that the Marvel Cinematic Universe is suffering from "franchise fatigue" — that audiences have grown tired of the volume and sameness of Marvel content, and that this is showing up in box office and critical reception. This is usually stated as received wisdom rather than something anyone has actually measured.
+Since roughly 2021, there's been a persistent media narrative that the Marvel Cinematic Universe is suffering from "franchise fatigue", that audiences have grown tired of the volume and sameness of Marvel content, and that this is showing up in box office and critical reception. This is usually stated as received wisdom rather than something anyone has actually measured.
 
-This project set out to test that narrative directly: is there a measurable decline, and if so, what's actually driving it? The goal wasn't to confirm the fatigue story — it was to see what the data said, even if that meant complicating or rejecting the popular framing.
+This project set out to test that narrative directly: is there a measurable decline, and if so, what's actually driving it? The goal wasn't to confirm the fatigue story, it was to see what the data said, even if that meant complicating or rejecting the popular framing.
 
 ## 2. Data
 
@@ -14,10 +14,10 @@ This project set out to test that narrative directly: is there a measurable decl
 - **The Numbers** — budget, opening weekend, domestic gross, worldwide gross
 
 ### Scope
-All 36 MCU theatrical films released as of data collection, Phase One through Phase Five. Phase Six was excluded from era-comparison analysis because, at the time of collection, only one Phase Six film (*Captain America: Brave New World*) had released — a sample size of one is not large enough to characterize a "phase."
+All 36 MCU theatrical films released as of data collection, Phase One through Phase Five. Phase Six was excluded from era-comparison analysis because, at the time of collection, only one Phase Six film (*Fantastic Four*) had released, a sample size of one is not large enough to characterize a "phase."
 
 ### A data-quality note worth flagging
-*Captain America: Brave New World* was initially mislabeled as a Phase Six film in this project's seed data. This was caught and corrected after cross-referencing Marvel's official phase groupings, which place it in Phase Five alongside *Thunderbolts\**. The correction is preserved in `sql/03_fix_phase_mislabel.sql` rather than silently edited out, since being transparent about a caught-and-fixed error is more credible than pretending the dataset was perfect from the start.
+*Captain America: Brave New World* was initially mislabeled as a Phase Six film in this project's seed data. This was caught and corrected after cross-referencing Marvel's official phase groupings, which place it in Phase Five alongside *Thunderbolts\**. The correction is preserved in `sql/03_fix_phase_mislabel.sql` rather than silently edited out, since being transparent about a caught and fixed error is more credible than pretending the dataset was perfect from the start.
 
 ### Database design
 Data was loaded into a normalized PostgreSQL schema — five tables (`films`, `film_details`, `film_cast`, `ratings`, `financials`) joined on film title, with foreign-key constraints enforcing referential integrity. Text-formatted fields from the source APIs (e.g., Rotten Tomatoes scores arriving as `"94%"`, IMDb vote counts as `"1,223,183"`) were converted into clean numeric columns via a dedicated cleaning pass before any analysis was run on them.
