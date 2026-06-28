@@ -111,7 +111,25 @@ With only 36 films, a single outlier — notably *Avengers: Endgame*, which is e
 | Financial returns have fallen even adjusting for budget | **Yes** — ROI is down across Phase 4-5, and Phase Five is now below Phase One |
 | Budget size explains the reception decline | **No** — budget correlates negligibly with both critic score (r=0.02) and audience score (r=0.22) |
 
-## 6. Limitations and honest caveats
+
+## 6. Recommendations
+
+If I were presenting these findings to studio stakeholders, the data points toward five concrete actions:
+
+1. **Treat the decline as a quality problem, not a fatigue or saturation problem alone, and resource accordingly.** Critic and audience scores fell together rather than diverging — both groups are responding to something real in the films themselves. The fix isn't a perception/marketing problem to manage; it's a creative and development one.
+
+2. **Weight early audience sentiment more heavily than critic embargo scores when forecasting financial performance.** Audience score correlated with ROI more strongly than critic score did (r=0.643 vs. r=0.538). Test-screening and early social sentiment are a better leading indicator of box office than critic reviews — marketing and release-confidence decisions should reflect that.
+
+3. **Don't address underperformance by increasing budget.** Budget showed no meaningful relationship with critic score (r=0.016) or audience score (r=0.218). A bigger budget on the next film is not a fix for a reception problem — the lever that matters is creative (script, casting, director), not spend.
+
+4. **Diversify bet sizing across the slate rather than treating every release as a must-be-tentpole.** *The Marvels* (0.76x ROI) and *Spider-Man: No Way Home* (9.61x ROI) sit within the same two-year window — the franchise isn't declining uniformly, it's becoming higher-variance. A slate with a mix of lower-budget, narrower-audience films alongside true tentpoles reduces the downside of a miss without requiring every film to be a blockbuster bet.
+
+5. **Don't over-engineer cast "freshness" as a fix.** The actor-appearance-gap analysis found no consistent penalty for a long gap between a lead's appearances. Internal pressure to constantly rotate or refresh characters to avoid "staleness" isn't supported by this data — that's not where the reception problem is coming from, so it's not where effort should go.
+
+One honest caveat for any stakeholder conversation: this dataset can't establish causation, and a reasonable follow-up question is *"what would you need to actually prove this?"* The honest answer is marketing spend data, the competitive theatrical landscape at each release, and streaming day-and-date strategy — none of which are present here. These recommendations are well-supported directional reads, not a substitute for that deeper analysis.
+
+
+## 7. Limitations and honest caveats
 
 - **Small sample.** 36 films total, with as few as 6 films in some phase groupings. Averages and correlations are sensitive to individual outliers.
 - **ROI is not profit.** Worldwide gross ÷ budget ignores marketing and distribution costs, which are commonly estimated to roughly double the real breakeven bar for a major theatrical release. All ROI figures here should be read as relative comparisons across phases, not literal profitability.
